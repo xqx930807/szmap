@@ -29,7 +29,7 @@ var mapOptions = {
 
 
 var vectorGroup = [new OpenLayers.Layer.WMS(
-    "szmap:szmap","http://127.0.0.1:9997/geoserver/gwc/service/wms",
+    "szmap:szmap","http://127.0.0.1:8888/geoserver/gwc/service/wms",
     {layers: 'szmap:szmap', format: 'image/png' },
     { tileSize: new OpenLayers.Size(256,256)
 
@@ -55,9 +55,9 @@ var arealayer = new OpenLayers.Layer.Vector("areaLayer", {
 });
 //公路
 var glLayer,searchVectorLayer;
-var gl_wms_url = "http://127.0.0.1:9997/geoserver/szmap/wms?";
-//var gl_wfs_url = "http://127.0.0.1:9997/geoserver/szmap/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=szmap:guodao&maxFeatures=50&outputFormat=GML2";
-var gl_wfs_url = "http://127.0.0.1:9997/geoserver/szmap/wfs?";
+var gl_wms_url = "http://127.0.0.1:8888/geoserver/szmap/wms?";
+//var gl_wfs_url = "http://127.0.0.1:8888/geoserver/szmap/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=szmap:guodao&maxFeatures=50&outputFormat=GML2";
+var gl_wfs_url = "http://127.0.0.1:8888/geoserver/szmap/wfs?";
 var gl_wms_layer = "szmap:guodao";
 var gl_wms_format = 'image/png';
 

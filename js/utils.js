@@ -205,7 +205,7 @@ function leftClick(roadCode){
             url : gl_wfs_url,
             srsName: "EPSG:4326",
             featureType:"guodao",
-            featureNS:"http://127.0.0.1:9997/szmap"
+            featureNS:"http://127.0.0.1:8888/szmap"
         }),  
         styleMap:new OpenLayers.StyleMap({ 
             strokeWidth : 4,  
@@ -239,7 +239,7 @@ function search(v){
         protocol : new OpenLayers.Protocol.WFS({ 
             url : gl_wfs_url,
             featureType:"guodao",
-            featureNS:"http://127.0.0.1:9997/szmap"
+            featureNS:"http://127.0.0.1:8888/szmap"
         }),  
         styleMap:new OpenLayers.StyleMap({ 
             strokeWidth : 3,  

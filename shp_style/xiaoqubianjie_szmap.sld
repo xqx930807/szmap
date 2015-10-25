@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="gb2312"?>
+<?xml version="1.0" encoding="GB2312"?>
 <sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml" version="1.0.0">
     <sld:UserLayer>
         <sld:LayerFeatureConstraints>
@@ -29,7 +29,7 @@
                             <ogc:PropertyName>mc</ogc:PropertyName>
                         </sld:Label>
                         <sld:Font>
-                            <sld:CssParameter name="font-family">宋体</sld:CssParameter>
+                            <sld:CssParameter name="font-family">瀹嬩綋</sld:CssParameter>
                             <sld:CssParameter name="font-size">12.0</sld:CssParameter>
                             <sld:CssParameter name="font-style">normal</sld:CssParameter>
                             <sld:CssParameter name="font-weight">bold</sld:CssParameter>
